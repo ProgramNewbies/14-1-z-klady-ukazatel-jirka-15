@@ -3,7 +3,7 @@
 int main() {
     int a, b, c;
     if (scanf("%d %d %d", &a, &b, &c) != 3) {
-        return 1;
+        return 0;
     }
     int *p_a = &a;
     int *p_b = &b;
